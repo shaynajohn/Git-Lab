@@ -1,4 +1,4 @@
 # Git Lab
-<i>Raikes Software Engineering IV (RAIK-284H)</i>
+<i>Course: Raikes Software Engineering IV (RAIK-284H)</i>
 
-Terminal Command to Run Tests: <strong>python test_git_lab.py</strong> (or <strong>python3 test_git_lab.py</strong>)
+<a href="https://drive.google.com/file/d/1bHJ__tXa-XhE1yKevYoSn-o92Gy_6He0/view?usp=drive_link">Instructions Document</a>
