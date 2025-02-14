@@ -11,6 +11,9 @@ from git_lab import (
     add_numbers,
     sub_numbers,
     multiply_numbers
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 )
 import math
@@ -69,6 +72,9 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(multiply_numbers(2, 3), 6)
         self.assertEqual(multiply_numbers(-1, 1), -1)
         
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 if __name__ == '__main__':
     unittest.main()
