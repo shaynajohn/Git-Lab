@@ -5,7 +5,13 @@ from git_lab import (
     is_palindrome,
     calculate_triangle_area,
     is_prime,
+<<<<<<< Updated upstream
     add_numbers
+=======
+    add_numbers,
+    sub_numbers,
+    multiply_numbers
+>>>>>>> Stashed changes
 )
 import math
 
@@ -53,5 +59,16 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(add_numbers(2, 3), 5)
         self.assertEqual(add_numbers(-1, 1), 0)
 
+<<<<<<< Updated upstream
+=======
+    def test_sub_numbers(self):
+        self.assertEqual(sub_numbers(2, 3), -1)
+        self.assertEqual(sub_numbers(-1, 1), -2)
+        
+    def test_multiply_numbers(self):
+        self.assertEqual(multiply_numbers(2, 3), 6)
+        self.assertEqual(multiply_numbers(-1, 1), -1)
+        
+>>>>>>> Stashed changes
 if __name__ == '__main__':
     unittest.main()
